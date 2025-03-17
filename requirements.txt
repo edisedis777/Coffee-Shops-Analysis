@@ -1,0 +1,16 @@
+# Core dependencies for data processing and visualization
+pandas>=2.2.2
+polars>=1.8.2
+numpy>=1.26.4
+matplotlib>=3.8.4
+altair>=5.4.1
+plotly>=5.24.1
+folium>=0.17.0
+requests>=2.32.3
+pyarrow>=17.0.0
+
+# Progress bar for analysis script
+tqdm>=4.66.5
+
+# Optional: Uncomment to include Daft for optimized data processing
+# getdaft>=0.3.0
