@@ -7,9 +7,12 @@ This project analyzes the Foursquare Open Source Places dataset to explore the d
 ### Analysis Pipeline
 <img width="419" alt="Screenshot 2025-03-17 at 12 09 04" src="https://github.com/user-attachments/assets/12de2ec5-64ae-42fd-a9f8-8eac696dec16" />
 
-### Output Visualization Dutch Bros Coffee Shops locations
+### Output Visualization Dutch Bros Coffee Shops Locations
 ![dutch-bros-coffee-shops-locations](https://github.com/user-attachments/assets/7b714580-ba02-4aef-b2ff-7b2a0a1b67c3)
 
+### Output Visualization Top Chains Bar Chart
+
+![top_chains_bar_chart](https://github.com/user-attachments/assets/461a5a64-0950-45fd-9f1f-1c1329d02e7d)
 
 The project is divided into two main components:
 
