@@ -1,0 +1,32 @@
+COFFEE SHOPS ANALYSIS SUMMARY
+============================
+
+Report generated on: 2025-03-17 11:25:24
+
+OVERALL STATISTICS
+-----------------
+Total coffee shops in US: 62976
+Coffee shops in Portland, OR: 656
+
+TOP CHAINS BY LOCATION COUNT
+---------------------------
+Peets Coffee & Tea: 1150 locations
+Dutch Bros Coffee: 984 locations
+Caribou Coffee: 898 locations
+Biggby Coffee: 615 locations
+Scooters Coffee: 578 locations
+
+STATE DISTRIBUTION
+------------------
+CA: 8867 coffee shops
+TX: 4296 coffee shops
+NY: 4203 coffee shops
+FL: 3234 coffee shops
+WA: 3016 coffee shops
+OR: 2022 coffee shops
+PA: 1939 coffee shops
+IL: 1887 coffee shops
+MI: 1850 coffee shops
+CO: 1836 coffee shops
+
+For more detailed analysis, see the generated visualizations and maps.
