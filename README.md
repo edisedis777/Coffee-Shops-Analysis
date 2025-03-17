@@ -10,11 +10,16 @@ This project analyzes the Foursquare Open Source Places dataset to explore the d
 ### Output Text
 <img width="495" alt="Screenshot 2025-03-17 at 12 22 18" src="https://github.com/user-attachments/assets/af36c923-85d1-465f-884e-fc4766f63d8d" />
 
-### Output Visualization Dutch Bros Coffee Shops Locations
+### Output Visualization Portland Coffee Shops
+![Screenshot 2025-03-17 at 12 25 08](https://github.com/user-attachments/assets/b8b1563e-c89a-4c09-816e-bca7d431821e)
+
+### Output Visualization Dutch Bros Coffee Shops 
 ![dutch-bros-coffee-shops-locations](https://github.com/user-attachments/assets/7b714580-ba02-4aef-b2ff-7b2a0a1b67c3)
 
-### Output Visualization Top Chains Bar Chart
+### Output Visualization US Coffee Shops 
+![Screenshot 2025-03-17 at 12 25 22](https://github.com/user-attachments/assets/853cce7d-1184-4241-b429-2885289ebe00)
 
+### Output Visualization Top Chains Bar Chart
 ![top_chains_bar_chart](https://github.com/user-attachments/assets/461a5a64-0950-45fd-9f1f-1c1329d02e7d)
 
 The project is divided into two main components:
