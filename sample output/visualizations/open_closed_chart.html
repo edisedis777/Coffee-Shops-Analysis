@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <style>
+    #vis.vega-embed {
+      width: 100%;
+      display: flex;
+    }
+
+    #vis.vega-embed details,
+    #vis.vega-embed details summary {
+      position: relative;
+    }
+  </style>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-lite@5.20.1"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+</head>
+<body>
+  <div id="vis"></div>
+  <script>
+    (function(vegaEmbed) {
+      var spec = {"config": {"view": {"continuousWidth": 300, "continuousHeight": 300}, "axis": {"labelAngle": 45}}, "data": {"name": "data-ef95fc84f145da7b4ce3259dab304c3b"}, "mark": {"type": "bar"}, "encoding": {"color": {"field": "status", "scale": {"domain": ["Open", "Closed"], "range": ["#4A2C2A", "#D4B59D"]}, "type": "nominal"}, "tooltip": [{"field": "name", "title": "Chain", "type": "nominal"}, {"field": "status", "title": "Status", "type": "nominal"}, {"field": "count", "title": "Count", "type": "quantitative"}], "x": {"field": "name", "title": "Coffee Chain", "type": "nominal"}, "y": {"field": "count", "title": "Number of Locations", "type": "quantitative"}}, "height": 400, "title": "Open vs Closed Locations by Coffee Chain", "width": 600, "$schema": "https://vega.github.io/schema/vega-lite/v5.20.1.json", "datasets": {"data-ef95fc84f145da7b4ce3259dab304c3b": [{"name": "Dutch Bros Coffee", "status": "Open", "count": 300}, {"name": "Dutch Bros Coffee", "status": "Closed", "count": 45}, {"name": "Peet's Coffee", "status": "Open", "count": 250}, {"name": "Peet's Coffee", "status": "Closed", "count": 40}]}};
+      var embedOpt = {"mode": "vega-lite"};
+
+      function showError(el, error){
+          el.innerHTML = ('<div style="color:red;">'
+                          + '<p>JavaScript Error: ' + error.message + '</p>'
+                          + "<p>This usually means there's a typo in your chart specification. "
+                          + "See the javascript console for the full traceback.</p>"
+                          + '</div>');
+          throw error;
+      }
+      const el = document.getElementById('vis');
+      vegaEmbed("#vis", spec, embedOpt)
+        .catch(error => showError(el, error));
+    })(vegaEmbed);
+
+  </script>
+</body>
+</html>
