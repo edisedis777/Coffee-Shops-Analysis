@@ -3,8 +3,8 @@ This project analyzes the Foursquare Open Source Places dataset to explore the d
 
 The project is divided into two main components:
 
-### Analysis Script (coffee_shops_analysis.py): Processes the dataset, performs data analysis, and generates summary reports.
-### Visualization Module (coffee-shops-viz.py): Creates interactive visualizations such as bar charts, choropleth maps, and heatmaps based on the analyzed data.
+1. Analysis Script (coffee_shops_analysis.py): Processes the dataset, performs data analysis, and generates summary reports.
+2. Visualization Module (coffee-shops-viz.py): Creates interactive visualizations such as bar charts, choropleth maps, and heatmaps based on the analyzed data.
 
 ## Components
 ### 1. Analysis Script (coffee_shops_analysis.py)
