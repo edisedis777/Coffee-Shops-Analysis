@@ -123,8 +123,7 @@ The project generates the following outputs in the specified output directory (d
 If you encounter issues or have suggestions for improvements, please open an issue on the GitHub repository.
 
 ### Credits
-- Daft
-- Polars
+- Foursquare OS Places Open Dataset (https://location.foursquare.com/resources/blog/products/foursquare-open-source-places-a-new-foundational-dataset-for-the-geospatial-community/)
 - Simon Willson's article (https://simonwillison.net/search/?q=Foursquare+OS+Places) 
 
 License
