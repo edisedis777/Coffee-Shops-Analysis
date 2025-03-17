@@ -24,11 +24,11 @@ This project analyzes the Foursquare Open Source Places dataset to explore the d
 
 The project is divided into two main components:
 
-1. Analysis Script (coffee_shops_analysis.py): Processes the dataset, performs data analysis, and generates summary reports.
+1. Analysis Script (coffee_shops.py): Processes the dataset, performs data analysis, and generates summary reports.
 2. Visualization Module (coffee-shops-viz.py): Creates interactive visualizations such as bar charts, choropleth maps, and heatmaps based on the analyzed data.
 
 ## Components
-### 1. Analysis Script (coffee_shops_analysis.py)
+### 1. Analysis Script (coffee_shops.py)
 This script fetches and processes the Foursquare Places dataset (from S3 or a local file), analyzes coffee shop distribution, and generates summary reports. It supports caching for faster subsequent runs and can create maps for top coffee chains. 
 
 Key features include:
@@ -72,10 +72,10 @@ pip install getdaft
 
 ## Usage
 ### 1. Analyzing Coffee Shop Data
-Run the coffee_shops_analysis.py script to process and analyze the coffee shop data. It accepts several command-line arguments to customize the analysis:
+Run the coffee_shops.py script to process and analyze the coffee shop data. It accepts several command-line arguments to customize the analysis:
 
 bash
-python coffee_shops_analysis.py [--output OUTPUT_DIR] [--save-maps] [--chains TOP_N] [--skip-daft] [--local-data FILE]
+python coffee_shops.py [--output OUTPUT_DIR] [--save-maps] [--chains TOP_N] [--skip-daft] [--local-data FILE]
 
 ### Arguments
 - --output OUTPUT_DIR: Directory to save output files (default: ./output).
@@ -88,7 +88,7 @@ python coffee_shops_analysis.py [--output OUTPUT_DIR] [--save-maps] [--chains TO
 To analyze the top 10 coffee chains and save maps:
 
 bash
-python coffee_shops_analysis.py --chains 10 --save-maps
+python coffee_shops.py --chains 10 --save-maps
 
 #### This command will:
 - Fetch and process the dataset (or load from cache/local file).
@@ -103,7 +103,7 @@ Import and use it in your Python code as follows:
 python
 from coffee_shops_viz import CoffeeShopVisualizer
 
-#### Assuming you have analyzed data (e.g., from coffee_shops_analysis.py)
+#### Assuming you have analyzed data (e.g., from coffee_shops.py)
 - viz = CoffeeShopVisualizer(output_dir="./output")
 - viz.create_chain_bar_chart(top_chains)          # Bar chart of top chains
 - viz.create_open_closed_chart(status_df)         # Open vs. closed status chart
