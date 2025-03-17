@@ -1,6 +1,16 @@
 # Coffee Shops Analysis
 This project analyzes the Foursquare Open Source Places dataset to explore the distribution of coffee shops across the United States, with a special focus on Portland, Oregon. It provides insights into top coffee chains, their locations, open versus closed status, and closure trends over time.
 
+### Initial Fetch
+<img width="526" alt="Screenshot 2025-03-17 at 10 24 55" src="https://github.com/user-attachments/assets/7c393d66-00e2-4360-a5ce-e5e13693486f" />
+
+### Analysis Pipeline
+<img width="419" alt="Screenshot 2025-03-17 at 12 09 04" src="https://github.com/user-attachments/assets/12de2ec5-64ae-42fd-a9f8-8eac696dec16" />
+
+### Output Visualization Dutch Bros Coffee Shops locations
+![dutch-bros-coffee-shops-locations](https://github.com/user-attachments/assets/7b714580-ba02-4aef-b2ff-7b2a0a1b67c3)
+
+
 The project is divided into two main components:
 
 1. Analysis Script (coffee_shops_analysis.py): Processes the dataset, performs data analysis, and generates summary reports.
