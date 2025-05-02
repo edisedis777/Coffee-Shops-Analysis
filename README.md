@@ -2,7 +2,6 @@
 [![Visual Studio Code](https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white)](#)
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)](#)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 
 This project analyzes the Foursquare Open Source Places dataset to explore the distribution of coffee shops across the United States, with a special focus on Portland, Oregon. It provides insights into top coffee chains, their locations, open versus closed status, and closure trends over time.
@@ -141,4 +140,4 @@ If you encounter issues or have suggestions for improvements, please open an iss
 - Simon Willson's article (https://simonwillison.net/search/?q=Foursquare+OS+Places) 
 
 License
-MIT License - feel free to use, modify, and distribute!
+Distributed under the GNU Affero General Public License v3.0 License. See `LICENSE` for more information.
